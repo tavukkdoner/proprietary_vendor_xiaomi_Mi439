@@ -306,6 +306,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libc++_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc++_shared.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libcamera_scene.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera_scene.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libcert_parse.wpa_s.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcert_parse.wpa_s.so \
+    vendor/xiaomi/Mi439/proprietary/vendor/lib/libchromaflash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromaflash.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_a3_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_a3_default_preview.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_a3_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_a3_default_video.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libchromatix_olive_gc02m1_sunny_a3_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_olive_gc02m1_sunny_a3_hfr_120.so \
@@ -3249,6 +3250,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libjpegdhw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdhw.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libjpegdmahw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdmahw.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libjpegehw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegehw.so \
+    vendor/xiaomi/Mi439/proprietary/vendor/lib/libllvd_smore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvd_smore.so \
+    vendor/xiaomi/Mi439/proprietary/vendor/lib/libllvd_sw_tnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvd_sw_tnr.so \
+    vendor/xiaomi/Mi439/proprietary/vendor/lib/libmfpostdummy_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmfpostdummy_daemon.so \
+    vendor/xiaomi/Mi439/proprietary/vendor/lib/libmfproc_dummy_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmfproc_dummy_daemon.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libmibokeh_439.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmibokeh_439.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libmmcamera2_c2d_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_c2d_module.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libmmcamera2_cpp_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_cpp_module.so \
@@ -3267,6 +3272,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libmmcamera2_stats_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_stats_lib.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libmmcamera2_stats_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_stats_modules.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libmmcamera_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_bokeh.so \
+    vendor/xiaomi/Mi439/proprietary/vendor/lib/libmmcamera_chromaflash_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_chromaflash_lib.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libmmcamera_csidtg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_csidtg.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libmmcamera_dbg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dbg.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libmmcamera_depth_map.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_depth_map.so \
@@ -3314,6 +3320,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libmmcamera_isp_sub_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_sub_module.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libmmcamera_isp_template.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_template.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libmmcamera_isp_wb40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_wb40.so \
+    vendor/xiaomi/Mi439/proprietary/vendor/lib/libmmcamera_llvd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_llvd.so \
+    vendor/xiaomi/Mi439/proprietary/vendor/lib/libmmcamera_mfproc_postcpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mfproc_postcpp.so \
+    vendor/xiaomi/Mi439/proprietary/vendor/lib/libmmcamera_mfproc_precpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mfproc_precpp.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libmmcamera_olive_gc02m1_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_olive_gc02m1_sunny.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libmmcamera_olive_gc02m1b_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_olive_gc02m1b_sunny.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libmmcamera_olive_gc2375_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_olive_gc2375_sunny.so \
@@ -3347,6 +3356,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libmmcamera_olivewood_ov8856_qtech.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_olivewood_ov8856_qtech.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libmmcamera_olivewood_ov8856_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_olivewood_ov8856_sunny.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libmmcamera_olivewood_s5k4h7_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_olivewood_s5k4h7_sunny.so \
+    vendor/xiaomi/Mi439/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_optizoom_lib.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libmmcamera_paaf_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_paaf_lib.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libmmcamera_pdaf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pdaf.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libmmcamera_pdafcamif.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pdafcamif.so \
@@ -3372,11 +3382,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libmmcamera_sat_test_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sat_test_lib.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_stillmore_lib.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libmmcamera_sw2d_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sw2d_lib.so \
+    vendor/xiaomi/Mi439/proprietary/vendor/lib/libmmcamera_sw_tnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sw_tnr.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libmmcamera_thread_services.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_thread_services.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libmmcamera_tintless_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_algo.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_bg_pca_algo.so \
+    vendor/xiaomi/Mi439/proprietary/vendor/lib/libmmcamera_trueportrait_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_trueportrait_lib.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libmmcamera_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tuning.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libmmcamera_tuning_lookup.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tuning_lookup.so \
+    vendor/xiaomi/Mi439/proprietary/vendor/lib/libmmcamera_ubifocus_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ubifocus_lib.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libmmcamera_westalgo_rtbokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_westalgo_rtbokeh.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libmmjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libmmqjpeg_codec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpeg_codec.so \
@@ -3384,6 +3397,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmpbase.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libois_bu63165.so:$(TARGET_COPY_OUT_VENDOR)/lib/libois_bu63165.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libois_lc898122.so:$(TARGET_COPY_OUT_VENDOR)/lib/libois_lc898122.so \
+    vendor/xiaomi/Mi439/proprietary/vendor/lib/liboptizoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboptizoom.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libqomx_jpegdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegdec.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libqomx_jpegenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc_pipe.so \
@@ -3391,6 +3405,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libseemore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libseemore.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libsymphony-cpu.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsymphony-cpu.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib/libsymphonypower.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsymphonypower.so \
+    vendor/xiaomi/Mi439/proprietary/vendor/lib/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrueportrait.so \
+    vendor/xiaomi/Mi439/proprietary/vendor/lib/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libubifocus.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib64/libmmcamera2_frame_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_frame_algorithm.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib64/libmmcamera2_is.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_is.so \
     vendor/xiaomi/Mi439/proprietary/vendor/lib64/libmmcamera2_q3a_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_q3a_core.so \
