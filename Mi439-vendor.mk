@@ -14,8 +14,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/Mi439/proprietary/vendor/etc/camera/arc_hdr_params_i.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/arc_hdr_params_i.xml \
     vendor/xiaomi/Mi439/proprietary/vendor/etc/camera/arc_hdr_params_ii.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/arc_hdr_params_ii.xml \
     vendor/xiaomi/Mi439/proprietary/vendor/etc/camera/arc_hdr_params_iii.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/arc_hdr_params_iii.xml \
-    vendor/xiaomi/Mi439/proprietary/vendor/overlayfs/olive/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/overlayfs/olive/etc/camera/camera_config.xml \
-    vendor/xiaomi/Mi439/proprietary/vendor/overlayfs/pine/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/overlayfs/pine/etc/camera/camera_config.xml \
+    vendor/xiaomi/Mi439/proprietary/vendor/etc/overlayfs/olive/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/overlayfs/olive/camera/camera_config.xml \
+    vendor/xiaomi/Mi439/proprietary/vendor/etc/overlayfs/pine/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/overlayfs/pine/camera/camera_config.xml \
     vendor/xiaomi/Mi439/proprietary/vendor/etc/camera/csidtg_camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/csidtg_camera.xml \
     vendor/xiaomi/Mi439/proprietary/vendor/etc/camera/csidtg_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/csidtg_chromatix.xml \
     vendor/xiaomi/Mi439/proprietary/vendor/etc/camera/global_morpho_hht_params_i.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/global_morpho_hht_params_i.xml \
@@ -3439,8 +3439,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/Mi439/proprietary/vendor/etc/perf/perfconfigstore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfconfigstore.xml \
     vendor/xiaomi/Mi439/proprietary/vendor/etc/perf/targetconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetconfig.xml \
     vendor/xiaomi/Mi439/proprietary/vendor/etc/perf/targetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetresourceconfigs.xml \
-    vendor/xiaomi/Mi439/proprietary/vendor/overlayfs/olive/etc/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/overlayfs/olive/etc/sensors/sensor_def_qcomdev.conf \
-    vendor/xiaomi/Mi439/proprietary/vendor/overlayfs/pine/etc/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/overlayfs/pine/etc/sensors/sensor_def_qcomdev.conf \
+    vendor/xiaomi/Mi439/proprietary/vendor/etc/overlayfs/olive/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/overlayfs/olive/sensors/sensor_def_qcomdev.conf \
+    vendor/xiaomi/Mi439/proprietary/vendor/etc/overlayfs/pine/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/overlayfs/pine/sensors/sensor_def_qcomdev.conf \
     vendor/xiaomi/Mi439/proprietary/vendor/etc/thermal-engine-camera.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-camera.conf \
     vendor/xiaomi/Mi439/proprietary/vendor/etc/thermal-engine-high.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-high.conf \
     vendor/xiaomi/Mi439/proprietary/vendor/etc/thermal-engine-map.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-map.conf \
