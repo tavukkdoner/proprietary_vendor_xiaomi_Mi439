@@ -6,6 +6,226 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
+	name: "libmmcamera2_frame_algorithm",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libmmcamera2_frame_algorithm.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libmmcamera2_frame_algorithm.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libmmcamera2_is",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libmmcamera2_is.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libmmcamera2_is.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libmmcamera2_q3a_core",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libmmcamera2_q3a_core.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libmmcamera2_q3a_core.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libmmcamera2_stats_algorithm",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libmmcamera2_stats_algorithm.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libmmcamera2_stats_algorithm.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libmmcamera2_stats_lib",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libmmcamera2_stats_lib.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libmmcamera2_stats_lib.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libmmcamera_dbg",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libmmcamera_dbg.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libmmcamera_dbg.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libmmcamera_faceproc",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libmmcamera_faceproc.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libmmcamera_faceproc.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libmmcamera_faceproc2",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libmmcamera_faceproc2.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libmmcamera_faceproc2.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libmmcamera_tintless_algo",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libmmcamera_tintless_algo.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libmmcamera_tintless_algo.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libmmcamera_tintless_bg_pca_algo",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "com.fingerprints.extension@1.0",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/com.fingerprints.extension@1.0.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/com.fingerprints.extension@1.0.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libsensor1",
 	owner: "xiaomi",
 	strip: {
