@@ -6,6 +6,46 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
+	name: "android.frameworks.displayservice@1.0",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/android.frameworks.displayservice@1.0.so"],
+			shared_libs: [
+			    "libhidlbase",
+			    "liblog",
+			    "libutils",
+			    "libcutils",
+			    "libc++",
+			    "libc",
+			    "libm",
+			    "libdl",
+			],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/android.frameworks.displayservice@1.0.so"],
+			shared_libs: [
+			    "libhidlbase",
+			    "liblog",
+			    "libutils",
+			    "libcutils",
+			    "libc++",
+			    "libc",
+			    "libm",
+			    "libdl",
+			],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libmmcamera2_frame_algorithm",
 	owner: "xiaomi",
 	strip: {
